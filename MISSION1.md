@@ -17,8 +17,8 @@ Now run `npm init` to start your nodejs project. They'll fill in some fields for
 If you check your bot's folder now, there should be a package.json file. [package.json](https://docs.npmjs.com/files/package.json) is like a description of the project, such as which packages our node project uses. It does other useful stuff too that we don't need for this tutorial. Now run the following 2 commands separately in the command line to install the botbuilder and restify packages (each of the packages may take a while to finish installing):
 
 ```shell
-npm install --save botbuilder@3.6.0
-npm install --save restify@4.3.0
+npm install --save botbuilder
+npm install --save restify
 ```
 
 Packages (or dependencies) are like parts/modules that others have written which we can use to build our bot. Microsoft's [BotBuilder](https://www.npmjs.com/package/botbuilder) is a framework we use to build our bot by handling stuff such as dialogs and storing info about the user. [Restify](https://www.npmjs.com/package/restify) exposes our bot through an API so that other web services can talk to it. The `--save` flag automatically updates the package.json file to show that BotBuilder and Restify are dependencies in our project.
