@@ -135,7 +135,7 @@ Note that for security reasons it's generally not advisable to paste any keys, p
 With that, we can start calling the API. Modify '/topNews' to the following:
 
 ```js
-bot.dialog('/topnews', [
+bot.dialog('/topNews', [
     function (session){
         // Ask the user which category they would like
         // Choices are separated by |
